@@ -1,0 +1,69 @@
+{
+  "stream": "Commerce",
+  "dataset_rows": 3000,
+  "train_records": 2400,
+  "test_records": 600,
+  "regression": {
+    "mae": 2.012849815196529,
+    "r2": 0.9729286245068296
+  },
+  "classification": {
+    "accuracy": 0.8333333333333334,
+    "precision_weighted": 0.8353953363868427,
+    "recall_weighted": 0.8333333333333334,
+    "f1_weighted": 0.8334327040568179
+  },
+  "per_field": [
+    {
+      "field": "Accounting and Auditing",
+      "mae": 1.934,
+      "r2": 0.978
+    },
+    {
+      "field": "Investment and Financial Markets",
+      "mae": 2.038,
+      "r2": 0.971
+    },
+    {
+      "field": "Economics and Public Policy",
+      "mae": 2.092,
+      "r2": 0.971
+    },
+    {
+      "field": "Business Management and Entrepreneurship",
+      "mae": 2.002,
+      "r2": 0.973
+    },
+    {
+      "field": "Marketing and Brand Strategy",
+      "mae": 1.954,
+      "r2": 0.973
+    },
+    {
+      "field": "Banking and Insurance",
+      "mae": 2.088,
+      "r2": 0.97
+    },
+    {
+      "field": "Corporate Law and Company Secretaryship",
+      "mae": 2.063,
+      "r2": 0.973
+    },
+    {
+      "field": "International Trade and Logistics",
+      "mae": 1.967,
+      "r2": 0.973
+    },
+    {
+      "field": "Human Resources and Organisational Behaviour",
+      "mae": 2.028,
+      "r2": 0.974
+    },
+    {
+      "field": "Business Analytics and E-commerce",
+      "mae": 1.962,
+      "r2": 0.974
+    }
+  ],
+  "note": "All targets are synthetic rubric-generated scores; metrics do not validate real-world career outcomes."
+}

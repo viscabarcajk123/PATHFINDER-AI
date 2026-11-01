@@ -1,0 +1,69 @@
+{
+  "stream": "Science",
+  "dataset_rows": 3000,
+  "train_records": 2400,
+  "test_records": 600,
+  "regression": {
+    "mae": 1.9991001094950005,
+    "r2": 0.9731793537527619
+  },
+  "classification": {
+    "accuracy": 0.7983333333333333,
+    "precision_weighted": 0.8046818925089251,
+    "recall_weighted": 0.7983333333333333,
+    "f1_weighted": 0.7988071604674545
+  },
+  "per_field": [
+    {
+      "field": "Computer Science and AI",
+      "mae": 2.065,
+      "r2": 0.972
+    },
+    {
+      "field": "Robotics and Automation",
+      "mae": 1.988,
+      "r2": 0.975
+    },
+    {
+      "field": "Aerospace and Aviation",
+      "mae": 1.991,
+      "r2": 0.976
+    },
+    {
+      "field": "Medicine and Surgery",
+      "mae": 2.05,
+      "r2": 0.971
+    },
+    {
+      "field": "Psychology and Neuroscience",
+      "mae": 1.941,
+      "r2": 0.975
+    },
+    {
+      "field": "Biotech and Genetics",
+      "mae": 2.037,
+      "r2": 0.972
+    },
+    {
+      "field": "Data Science and Finance",
+      "mae": 2.013,
+      "r2": 0.972
+    },
+    {
+      "field": "Forensic Science",
+      "mae": 1.914,
+      "r2": 0.975
+    },
+    {
+      "field": "Architecture and Design",
+      "mae": 1.97,
+      "r2": 0.973
+    },
+    {
+      "field": "Smart Agriculture and Ecology",
+      "mae": 2.022,
+      "r2": 0.972
+    }
+  ],
+  "note": "All targets are synthetic rubric-generated scores; metrics do not validate real-world career outcomes."
+}
