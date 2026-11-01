@@ -1,0 +1,9 @@
+@echo off
+cd /d "%~dp0"
+echo Installing requirements...
+py -m pip install -r requirements.txt
+echo Training models for all 3 streams...
+py train_model.py
+echo Launching Pathfinder AI...
+py -m streamlit run app.py
+pause
